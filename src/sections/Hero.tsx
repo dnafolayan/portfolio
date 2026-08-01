@@ -1,6 +1,6 @@
 function Hero() {
     return (
-        <section>
+        <section id="home">
             <h1>Divine Afolayan</h1>
             <h2>Aspiring Backend Engineer</h2>
             <p>
