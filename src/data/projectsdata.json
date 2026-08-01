@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "CLI Task Scheduler",
+        "description": "A lightweight, Python-based task scheduler that runs commands on a defined schedule, logs results, and handles both success and error outputs.",
+        "technologies": ["Python", "argparse", "subprocess"],
+        "link": "https://github.com/dnafolayan/cli-task-scheduler"
+    },
+    {
+        "id": 2,
+        "title": "File Organizer",
+        "description": "A Python script designed to help you organize files in a folder based on their extensions.",
+        "technologies": ["Python", "os", "pathlib"],
+        "link": "https://github.com/dnafolayan/file-organizer"
+    },
+    {
+        "id": 3,
+        "title": "Notes API",
+        "description": "A REST API built with Go for managing notes with database integration.",
+        "technologies": ["Go", "Gin", "SQLite", "REST API"],
+        "link": "https://github.com/dnafolayan/notes-api"
+    },
+    {
+        "id": 4,
+        "title": "RealTimePulse",
+        "description": "A real-time alerting system exploring concurrency patterns and scalable backend architecture.",
+        "technologies": ["Go", "Goroutines", "Channels"],
+        "link": "https://github.com/dnafolayan/realtimepulse"
+    }
+]

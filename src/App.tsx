@@ -4,7 +4,7 @@ import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 
-const App = () => {
+function App() {
     return (
         <main>
             <Navbar />
@@ -14,6 +14,6 @@ const App = () => {
             <Projects />
         </main>
     );
-};
+}
 
 export default App;
