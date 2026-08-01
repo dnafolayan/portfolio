@@ -1,11 +1,11 @@
-import "./App.css";
+import Hero from "./sections/Hero";
 
-function App() {
+const App = () => {
     return (
-        <>
-            <h1>Divine Afolayan</h1>
-        </>
+        <main>
+            <Hero />
+        </main>
     );
-}
+};
 
 export default App;
