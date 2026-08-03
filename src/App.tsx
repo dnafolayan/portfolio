@@ -7,14 +7,14 @@ import Skills from "./sections/Skills";
 
 function App() {
     return (
-        <main>
+        <div className="bg-[#0a0a0a] text-white min-h-screen">
             <Navbar />
             <Hero />
             <About />
             <Skills />
             <Projects />
             <Contact />
-        </main>
+        </div>
     );
 }
 
