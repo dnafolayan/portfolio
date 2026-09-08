@@ -3,11 +3,12 @@ function Hero() {
         <section id="hero" className="flex min-h-screen items-center">
             <div className="mx-auto w-full max-w-6xl">
                 <div className="max-w-4xl">
-                    <p className="mb-6 text-2xl font-medium text-cyan-400 md:text-3xl">
+                    {/* <p className="mb-6 text-2xl font-medium text-cyan-400 md:text-3xl">
                         Hello, I&apos;m
-                    </p>
+                    </p> */}
                     <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl md:text-7xl">
-                        Divine Afolayan
+                        Divine Afolayan &#8203;—
+                        <br className="hidden sm:block" />
                         <span className="mt-3 block font-mono text-cyan-400">
                             Backend Engineer building scalable systems
                         </span>
