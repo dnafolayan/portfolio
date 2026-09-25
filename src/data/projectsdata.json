@@ -22,9 +22,9 @@
     },
     {
         "id": 4,
-        "title": "RealTimePulse",
-        "description": "A real-time alerting system exploring concurrency patterns and scalable backend architecture.",
-        "technologies": ["Go", "Goroutines", "Channels"],
-        "link": "https://github.com/dnafolayan/realtimepulse"
+        "title": "Ascii Motion",
+        "description": "A real-time ASCII animation generator that converts video frames into ASCII art and displays them in the terminal.",
+        "technologies": ["Python", "PIL"],
+        "link": "https://github.com/dnafolayan/ascii-motion"
     }
 ]
