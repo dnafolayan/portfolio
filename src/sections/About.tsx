@@ -1,24 +1,9 @@
 function About() {
     return (
-        <section id="about" className="min-h-screen flex items-center">
-            <div className="w-full max-w-6xl mx-auto">
-                <div className="rounded-3xl border border-cyan-400/20 bg-gradient-to-br from-gray-900/90 via-gray-900/70 to-cyan-950/40 p-8 shadow-[0_0_0_1px_rgba(34,211,238,0.08)] md:p-12">
-                    <p className="mb-3 text-sm uppercase tracking-[0.3em] text-cyan-400/80">
-                        Who I am
-                    </p>
-                    <h2 className="mb-6 text-3xl font-bold font-mono text-cyan-400 md:text-4xl">
-                        About Me
-                    </h2>
-                    <p className="max-w-3xl text-lg leading-8 text-gray-300">
-                        I’m an aspiring backend engineer focused on building
-                        scalable systems and developer-friendly tools with
-                        technologies like Go, Python, JavaScript, and modern
-                        databases. I’m passionate about learning new
-                        technologies, designing reliable APIs, exploring
-                        distributed systems, and growing deeper in AI
-                        engineering.
-                    </p>
-                </div>
+        <section id="about" className="px-6 py-28 lg:px-8 lg:py-36">
+            <div className="mx-auto grid max-w-6xl gap-10 border-t border-white/10 pt-12 md:grid-cols-[.55fr_1.45fr] md:pt-16">
+                <div><p className="text-xs font-medium uppercase tracking-[.2em] text-[#b5f36b]">A little about me</p><h2 className="mt-4 text-3xl font-semibold tracking-tight text-white md:text-4xl">Curiosity, built into code.</h2></div>
+                <div><p className="max-w-3xl text-lg leading-8 tracking-[-.015em] text-white/65">I’m an aspiring backend engineer focused on building scalable systems and developer-friendly tools with Go, Python, JavaScript, and modern databases. I’m passionate about learning new technologies, designing reliable APIs, exploring distributed systems, and growing deeper in AI engineering.</p><p className="mt-7 text-sm text-white/40">Based in Nigeria <span className="mx-2 text-[#b5f36b]">·</span> Building for everywhere</p></div>
             </div>
         </section>
     );

@@ -6,16 +6,16 @@ function Projects() {
     const projects: Project[] = projectData;
 
     return (
-        <section id="projects" className="min-h-screen flex items-center">
-            <div className="w-full max-w-6xl mx-auto">
+        <section id="projects" className="px-6 py-28 lg:px-8 lg:py-36">
+            <div className="mx-auto w-full max-w-6xl">
                 <div className="mb-10">
-                    <p className="mb-3 text-sm uppercase tracking-[0.3em] text-cyan-400/80">
+                    <p className="mb-3 text-xs uppercase tracking-[.2em] text-[#b5f36b]">
                         Selected work
                     </p>
-                    <h2 className="text-3xl font-bold font-mono text-cyan-400 md:text-4xl">
+                    <h2 className="text-4xl font-semibold tracking-tight text-white md:text-5xl">
                         Projects
                     </h2>
-                    <p className="mt-4 max-w-2xl text-gray-300">
+                    <p className="mt-4 max-w-2xl text-[15px] leading-7 text-white/55">
                         A few examples of the systems, tools, and interfaces I
                         enjoy building.
                     </p>
@@ -40,7 +40,7 @@ function Projects() {
                         href="https://github.com/dnafolayan"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center rounded-full bg-cyan-500 px-8 py-3 text-sm font-semibold text-black transition hover:bg-cyan-400 "
+                        className="inline-flex items-center justify-center rounded-full bg-[#b5f36b] px-8 py-3 text-sm font-semibold text-[#10150b] transition duration-300 hover:-translate-y-0.5 hover:bg-[#c7fb89]"
                     >
                         More Projects
                     </a>

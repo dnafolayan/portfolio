@@ -1,26 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
-
 @import "tailwindcss";
 
 :root {
-    font-family: "Inter", sans-serif;
-    background-color: #0a0a0a;
-    color: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
+  color: #f5f7f3;
+  background: #080b09;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  --green: #b5f36b;
+  --muted: #a0a79f;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #080b09; }
+::selection { background: #b5f36b; color: #080b09; }
+section { scroll-margin-top: 5rem; }
 
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    min-width: 320px;
-    color: #f5f5f5;
-    background-color: #0a0a0a;
+@keyframes float-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
 }
-
-section {
-    padding: 5rem 1.5rem;
+.hero-in { animation: float-in 800ms cubic-bezier(.2,.7,.2,1) both; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
