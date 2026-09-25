@@ -24,7 +24,7 @@ function Skills() {
 
     return (
         <section id="skills" className="px-6 py-28 lg:px-8 lg:py-36">
-            <div className="mx-auto w-full max-w-6xl">
+            <div className="mx-auto w-full max-w-6xl border-t border-white/10 pt-12 md:pt-16">
                 <div className="mb-10">
                     <p className="mb-3 text-xs uppercase tracking-[.2em] text-[#b5f36b]">
                         My toolkit
