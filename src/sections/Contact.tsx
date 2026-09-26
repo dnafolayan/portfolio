@@ -29,7 +29,7 @@ function Contact() {
                                     href={link.href}
                                     target={link.href.startsWith("mailto:") ? undefined : "_blank"}
                                     rel={link.href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
-                                    className="inline-flex items-center gap-1 text-sm font-medium text-white/65 transition hover:text-[#b5f36b]"
+                                    className="inline-flex min-h-11 items-center gap-1 rounded-full border border-transparent px-4 text-sm font-medium text-white/80 transition-colors hover:border-white/10 hover:bg-white/[0.04] hover:text-[#b5f36b] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b5f36b]"
                                 >
                                     {link.label}<span aria-hidden="true">↗</span>
                                 </a>
