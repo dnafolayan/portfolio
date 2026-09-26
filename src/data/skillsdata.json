@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Languages",
+        "skills": ["Go", "Python", "JavaScript", "TypeScript"]
+    },
+    {
+        "title": "Backend",
+        "skills": ["FastAPI", "Gin", "Express.js", "REST APIs", "JWT Auth"]
+    },
+    {
+        "title": "Frontend",
+        "skills": ["React", "Tailwind CSS", "Responsive UI", "State Mgmt"]
+    },
+    {
+        "title": "Databases",
+        "skills": ["PostgreSQL", "MongoDB", "SQLite"]
+    },
+    {
+        "title": "Tools",
+        "skills": ["Git", "Linux", "Docker", "Postman"]
+    }
+]
