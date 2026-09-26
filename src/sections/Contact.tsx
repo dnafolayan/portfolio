@@ -1,9 +1,8 @@
+import contactData from "../data/contactsdata.json";
+import type { Contact } from "../types/contacts";
+
 function Contact() {
-    const links = [
-        { label: "Email", href: "mailto:divineafolayan05@gmail.com" },
-        { label: "GitHub", href: "https://github.com/dnafolayan" },
-        { label: "X", href: "https://x.com/dnafolayan" },
-    ];
+    const links: Contact[] = contactData;
 
     return (
         <section id="contact" className="px-6 py-28 lg:px-8 lg:py-36">
@@ -27,11 +26,20 @@ function Contact() {
                             <li key={link.label}>
                                 <a
                                     href={link.href}
-                                    target={link.href.startsWith("mailto:") ? undefined : "_blank"}
-                                    rel={link.href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
+                                    target={
+                                        link.href.startsWith("mailto:")
+                                            ? undefined
+                                            : "_blank"
+                                    }
+                                    rel={
+                                        link.href.startsWith("mailto:")
+                                            ? undefined
+                                            : "noopener noreferrer"
+                                    }
                                     className="inline-flex min-h-11 items-center gap-1 rounded-full border border-transparent px-4 text-sm font-medium text-white/80 transition-colors hover:border-white/10 hover:bg-white/[0.04] hover:text-[#b5f36b] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b5f36b]"
                                 >
-                                    {link.label}<span aria-hidden="true">↗</span>
+                                    {link.label}
+                                    <span aria-hidden="true">↗</span>
                                 </a>
                             </li>
                         ))}

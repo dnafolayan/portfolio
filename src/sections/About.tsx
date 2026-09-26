@@ -12,15 +12,17 @@ function About() {
                 </div>
                 <div>
                     <p className="max-w-3xl text-lg leading-8 tracking-[-.015em] text-white/65">
-                        I’m an aspiring backend engineer focused on building
-                        scalable systems and developer-friendly tools with Go,
-                        Python, JavaScript, and modern databases. I’m passionate
-                        about learning new technologies, designing reliable APIs,
+                        I’m a backend engineer focused on building scalable
+                        systems and developer-friendly tools with Go, Python,
+                        JavaScript, and modern databases. I’m passionate about
+                        learning new technologies, designing reliable APIs,
                         exploring distributed systems, and growing deeper in AI
                         engineering.
                     </p>
                     <p className="mt-7 text-sm text-white/40">
-                        Based in Nigeria <span className="mx-2 text-[#b5f36b]">·</span> Building for everywhere
+                        Based in Nigeria{" "}
+                        <span className="mx-2 text-[#b5f36b]">·</span> Building
+                        for everywhere
                     </p>
                 </div>
             </div>

@@ -1,27 +1,8 @@
-function Skills() {
-    const skillGroups = [
-        {
-            title: "Languages",
-            skills: ["Go", "Python", "JavaScript", "TypeScript"],
-        },
-        {
-            title: "Backend",
-            skills: ["FastAPI", "Gin", "Express.js", "REST APIs", "JWT Auth"],
-        },
-        {
-            title: "Frontend",
-            skills: ["React", "Tailwind CSS", "Responsive UI", "State Mgmt"],
-        },
-        {
-            title: "Databases",
-            skills: ["PostgreSQL", "MongoDB", "SQLite"],
-        },
-        {
-            title: "Tools",
-            skills: ["Git", "Linux", "Docker", "Postman"],
-        },
-    ];
+import skillGroup from "../data/skillsdata.json";
+import type { SkillGroup } from "../types/skills";
 
+function Skills() {
+    const skillGroups: SkillGroup[] = skillGroup;
     return (
         <section id="skills" className="px-6 py-28 lg:px-8 lg:py-36">
             <div className="mx-auto w-full max-w-6xl border-t border-white/10 pt-12 md:pt-16">
