@@ -1,8 +1,8 @@
 import contactData from "../data/contactsdata.json";
-import type { Contact } from "../types/contacts";
+import type { Contacts } from "../types/contacts";
 
 function Contact() {
-    const links: Contact[] = contactData;
+    const links: Contacts[] = contactData;
 
     return (
         <section id="contact" className="px-6 py-28 lg:px-8 lg:py-36">
