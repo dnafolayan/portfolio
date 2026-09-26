@@ -6,7 +6,7 @@ function Skills() {
         },
         {
             title: "Backend",
-            skills: ["Gin", "Express.js", "REST APIs", "JWT Auth"],
+            skills: ["FastAPI", "Gin", "Express.js", "REST APIs", "JWT Auth"],
         },
         {
             title: "Frontend",
@@ -14,7 +14,7 @@ function Skills() {
         },
         {
             title: "Databases",
-            skills: ["PostgreSQL", "MongoDB", "SQLite", "Prisma"],
+            skills: ["PostgreSQL", "MongoDB", "SQLite"],
         },
         {
             title: "Tools",

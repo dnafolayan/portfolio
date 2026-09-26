@@ -2,7 +2,10 @@ function Navbar() {
     return (
         <nav className="fixed inset-x-0 top-0 z-50 border-b border-white/[0.07] bg-[#080b09]/75 backdrop-blur-2xl">
             <div className="mx-auto flex h-[68px] max-w-6xl items-center justify-between px-6 lg:px-8">
-                <a href="#hero" className="text-sm font-semibold tracking-tight text-white">
+                <a
+                    href="#hero"
+                    className="text-sm font-semibold tracking-tight text-white"
+                >
                     Divine Afolayan
                 </a>
 
